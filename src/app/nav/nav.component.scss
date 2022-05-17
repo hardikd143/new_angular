@@ -1,0 +1,48 @@
+nav {
+  height: 80px;
+  background: rgb(32, 32, 32, 0.2);
+  .container {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .nav-left {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      .logo {
+        h4 {
+          font-size: 2rem;
+          margin: 0;
+        }
+      }
+    }
+    .nav-right {
+      height: 100%;
+      ul {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        li {
+          height: 60px;
+          line-height: 60px;
+          list-style-type: none;
+          .nav-item {
+            display: inline-block;
+            line-height: 40px;
+            color: rgb(32, 32, 32);
+            text-decoration: none;
+            font-size: 1.25rem;
+            padding: 0 1rem;
+          }
+          &:hover {
+            a {
+              background: rgb(32, 32, 32);
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
